@@ -8,7 +8,7 @@ import Work from "./components/Work";
 
 export default function App() {
   return (
-    <div className="flex flex-col bg-gray-100 min-h-screen min-w-fit">
+    <div className="flex flex-col bg-[#212428] min-h-screen min-w-fit">
       <Navbar />
       <div className="pt-24 px-5 md:px-56 w-full"> {/* Adjusted padding-top */}
         <Hero />

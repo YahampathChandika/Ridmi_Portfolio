@@ -34,10 +34,10 @@ export default function Work() {
       className="pb-16 px-4 sm:px-8 bg-gray-100 flex flex-col items-center"
     >
       {/* Section Title */}
-      <hr className="border border-gray-400 w-full mx-auto mb-12" />
+      <hr className="border border-black/40 border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center sm:text-left mb-12 w-full max-w-screen-lg">
         <p className="text-2xl text-pnk mt-2 leading-loose">Career</p>
-        <h2 className="text-4xl sm:text-6xl font-bold text-blck">
+        <h2 className="text-4xl sm:text-6xl font-bold text-wht">
           Work Experience
         </h2>
       </div>
@@ -52,17 +52,17 @@ export default function Work() {
             {/* Timeline Marker */}
             <div className="absolute w-4 h-4 bg-pnk rounded-full -left-2.5 border-2 border-wht"></div>
             {/* Content */}
-            <div className="bg-white hover:bg-pnk p-6 rounded-lg shadow-lg transition-all duration-300 group-hover:text-white">
-              <h3 className="text-xl sm:text-2xl font-semibold text-blck transition-all duration-300 group-hover:text-white">
+            <div className="bg-zinc-900 hover:bg-pnk p-6 rounded-lg shadow-2xl transition-all duration-300 group-hover:text-white">
+              <h3 className="text-xl sm:text-2xl font-semibold text-wht transition-all duration-300 group-hover:text-white">
                 {exp.title}
               </h3>
               <p className="text-lg text-pnk font-medium transition-all duration-300 group-hover:text-white">
                 {exp.company}
               </p>
-              <span className="text-gray-500 text-sm transition-all duration-300 group-hover:text-white">
+              <span className="text-gray text-sm transition-all duration-300 group-hover:text-white">
                 {exp.duration}
               </span>
-              <p className="text-gray-600 mt-4 transition-all duration-300 group-hover:text-white">
+              <p className="text-gray mt-4 transition-all duration-300 group-hover:text-white">
                 {exp.description}
               </p>
             </div>

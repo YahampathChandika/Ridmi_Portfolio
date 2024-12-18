@@ -77,27 +77,27 @@ const skills = [
 export default function Skills() {
   return (
     <div id="skills" className="pb-16 px-4 sm:px-8 bg-gray-100">
-      <hr className="border border-gray-400 w-full mx-auto mb-12" />
+      <hr className="border border-black/40 border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center sm:text-left mb-12 w-full">
-        <p className="text-2xl text-pink-500 mt-2 leading-loose">Skills</p>
-        <h2 className="text-4xl sm:text-6xl font-bold text-black">
+        <p className="text-2xl text-pnk mt-2 leading-loose">Skills</p>
+        <h2 className="text-4xl sm:text-6xl font-bold text-wht">
           My Tech Stack
         </h2>
       </div>
 
       {/* Skills Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-16">
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="bg-white shadow-lg px-6 py-8 flex flex-col items-center justify-center rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 group cursor-pointer"
+            className="bg-black/10 shadow-xl px-6 py-8 flex flex-col items-center justify-center rounded-2xl transition-all duration-300 hover:shadow-xl hover:scale-105 group cursor-pointer"
           >
             <img
               src={skill.image}
               alt={skill.name}
               className="h-16 w-16 sm:h-24 sm:w-24 mb-4 group-hover:scale-110 transition-all duration-300"
             />
-            <h3 className="text-lg sm:text-xl font-semibold text-black mb-2 group-hover:text-pink-500 transition-all duration-300">
+            <h3 className="text-lg sm:text-xl font-semibold text-gray mb-2 group-hover:text-pink-500 transition-all duration-300">
               {skill.name}
             </h3>
           </div>

@@ -33,10 +33,12 @@ const Projects = () => {
       id="projects"
       className="pb-16 px-4 sm:px-6 bg-gray-100 flex flex-col items-center"
     >
-      <hr className="border border-gray-400 w-full mx-auto mb-12" />
+      <hr className="border border-black/40 border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center mb-12 w-full">
-        <p className="text-2xl text-pink-600 mt-2 leading-loose">Projects</p>
-        <h2 className="text-4xl md:text-6xl font-bold text-black">My Work</h2>
+        <p className="text-2xl text-pnk mt-2 leading-loose">Projects</p>
+        <h2 className="text-4xl sm:text-6xl font-bold text-wht">
+          My Work
+        </h2>
       </div>
 
       {/* Projects Grid */}
@@ -44,7 +46,7 @@ const Projects = () => {
         {projectsData.map((project) => (
           <div
             key={project.id}
-            className="bg-white px-4 py-6 sm:px-6 sm:py-8 shadow-lg rounded-lg overflow-hidden group transition-all duration-300 hover:shadow-xl cursor-pointer relative"
+            className="bg-zinc-900 px-4 py-6 md:px-8 md:py-8 shadow-2xl rounded-3xl overflow-hidden group transition-all duration-300 hover:shadow-xl cursor-pointer relative"
             onClick={() => handleOpenModal(project)}
           >
             <img
@@ -53,10 +55,10 @@ const Projects = () => {
               className="w-full h-32 md:h-64 object-cover rounded-lg group-hover:scale-105 transition-all duration-300"
             />
             <div className="pt-4 sm:pt-6">
-              <h3 className="text-xl sm:text-2xl font-semibold text-black mb-2 group-hover:text-pink-600">
+              <h3 className="text-xl sm:text-2xl font-semibold text-wht mb-2 group-hover:text-pink-600">
                 {project.name}
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base text-gray">
                 {project.description}
               </p>
             </div>

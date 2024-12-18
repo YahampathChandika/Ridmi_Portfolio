@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function Navbar() {
   const [activeItem, setActiveItem] = useState("Home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false); // Track scroll state
   const menuItems = ["Home", "Features", "Projects", "Work", "Contact"];
 
   const handleScroll = (sectionId) => {
@@ -12,7 +13,7 @@ export default function Navbar() {
     }
   };
 
-  // Function to detect which section is currently in view
+  // Detect which section is currently in view
   const handleActiveSectionChange = () => {
     const sections = menuItems.map((item) =>
       document.getElementById(item.toLowerCase())
@@ -23,16 +24,26 @@ export default function Navbar() {
         rect.top <= window.innerHeight / 2 &&
         rect.bottom >= window.innerHeight / 2
       ) {
-        setActiveItem(section.id.charAt(0).toUpperCase() + section.id.slice(1)); // Set active item based on section in view
+        setActiveItem(section.id.charAt(0).toUpperCase() + section.id.slice(1));
       }
     });
   };
 
-  // Set up scroll event listener to detect section visibility
+  // Track scroll position for navbar effects
+  const handleNavbarScroll = () => {
+    if (window.scrollY > 10) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleActiveSectionChange);
+    window.addEventListener("scroll", handleNavbarScroll);
     return () => {
       window.removeEventListener("scroll", handleActiveSectionChange);
+      window.removeEventListener("scroll", handleNavbarScroll);
     };
   }, []);
 
@@ -41,16 +52,22 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50 text-black px-4 md:px-20 py-1 md:py-4">
-      <div className="flex items-center justify-between">
+    <nav
+      className={`fixed top-0 left-0 w-full z-50 text-[#89919C] px-4 md:px-20 py-1 md:py-8 transition-all duration-300 ${
+        isScrolled
+          ? "bg-[#212428]/90 backdrop-blur-md shadow-md"
+          : "bg-[#212428]"
+      }`}
+    >
+      <div className="flex items-center justify-between ">
         <div className="flex items-center space-x-3">
           <img
             src="https://i.pinimg.com/736x/99/8f/41/998f41fc4c63e69c06b99a6e03629815.jpg"
             className="rounded-full h-12 w-12 md:h-14 md:w-14"
             alt="pp"
           />
-          <div className="text-lg md:text-2xl font-semibold md:font-bold">
-            Sewwandi
+          <div className="text-lg text-wht md:text-2xl font-semibold">
+            Ridmi
           </div>
         </div>
 
@@ -71,7 +88,7 @@ export default function Navbar() {
         </div>
 
         {/* Menu items for larger screens */}
-        <ul className="hidden md:flex space-x-6 text-xl">
+        <ul className="hidden md:flex space-x-12 text-lg">
           {menuItems.map((item) => (
             <li
               key={item}

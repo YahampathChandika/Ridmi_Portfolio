@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-10 md:space-y-0">
           {/* Logo and Description */}
           <div className="flex flex-col space-y-4 text-center md:text-left">
-            <h2 className="text-3xl font-bold text-pnk">Sewwandi Fernando</h2>
+            <h2 className="text-3xl font-bold text-pnk">Ridmi Jayasekara</h2>
             <p className="text-gray-400 max-w-md mx-auto md:mx-0">
               I'm a passionate full-stack developer, creating engaging and
               functional digital experiences that leave a lasting impression.
@@ -66,7 +66,7 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Follow Me</h3>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
-                href="https://www.linkedin.com/in/sewwandi-nirushika-349a05238/"
+                href="https://www.linkedin.com/in/Ridmi-nirushika-349a05238/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pnk text-2xl transition-all"
@@ -101,7 +101,7 @@ export default function Footer() {
               </p>
               <p className="text-gray-400 hover:text-pnk transition-all">
                 <i className="fas fa-envelope text-pnk"></i>{" "}
-                sewwandi.fernando@email.com
+                Ridmi.Jayasekara@email.com
               </p>
             </div>
           </div>
@@ -110,7 +110,8 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="mt-10 border-t border-gray-600 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Sewwandi Fernando. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Ridmi Jayasekara. All Rights
+            Reserved.
           </p>
         </div>
       </div>
