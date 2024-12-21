@@ -1,5 +1,8 @@
 import React from "react";
-
+import image from "../assets/images/ridmi.jpeg";
+import mysql from "../assets/images/mysql.png";
+import { SiMysql } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 export default function Hero() {
   return (
     <div
@@ -17,15 +20,18 @@ export default function Hero() {
         </p>
         <div className="w-full md:w-1/2 flex justify-center md:justify-end md:hidden">
           <img
-            src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/04cbf851-aeb2-4af6-be64-15feff838f36/569972be-0c98-4859-87b3-dd145228b33e.png"
-            alt="Jone Lee"
+            src={image}
+            alt="Ridmi Jayasekara"
             className="rounded-lg shadow-lg w-10/12 md:w-8/12"
           />
         </div>
         <p className="text-gray text-base md:text-lg">
-          I use animation as a third dimension by which to simplify experiences
-          and guide through each and every interaction. I’m not adding motion
-          just to spruce things up, but doing it in ways that matter.
+          I am passionate about crafting intuitive, efficient, and user-focused
+          web applications. My goal is to deliver impactful, scalable, and
+          modern digital products that prioritize reliability and user
+          experience. I use animation as a third dimension to simplify
+          experiences and guide interactions, not just to enhance visuals, but
+          to make a meaningful difference.
         </p>
         {/* Buttons */}
         <div className="flex flex-col md:flex-row md:justify-between items-center pt-20 md:items-start space-y-10 md:space-y-0">
@@ -35,7 +41,7 @@ export default function Hero() {
             </p>
             <div className="flex justify-center md:justify-start space-x-4 text-gray-500">
               <a
-                href="https://www.linkedin.com/in/Ridmi-nirushika-349a05238/"
+                href="https://www.linkedin.com/in/ridmi-jayasekara-1bb7011a1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
@@ -43,7 +49,7 @@ export default function Hero() {
                 <i className="fab fa-linkedin-in text-2xl md:text-3xl"></i>
               </a>
               <a
-                href="https://github.com/yourgithubprofile"
+                href="https://github.com/ridmijayasekara2713"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
@@ -51,8 +57,8 @@ export default function Hero() {
                 <i className="fab fa-github text-2xl md:text-3xl"></i>
               </a>
               <a
-                href="https://www.instagram.com/yourinstagramprofile/"
-                target="_blank"
+                href=""
+                // target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
               >
@@ -66,24 +72,15 @@ export default function Hero() {
               BEST SKILLS ON
             </p>
             <div className="flex justify-center md:justify-start space-x-4 text-gray-500">
-              <a
-                href="#"
-                className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
-              >
-                <i className="fab fa-react text-2xl md:text-3xl"></i>
-              </a>
-              <a
-                href="#"
-                className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
-              >
-                <i className="fab fa-node text-2xl md:text-3xl"></i>
-              </a>
-              <a
-                href="#"
-                className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
-              >
-                <i className="fas fa-database text-2xl md:text-3xl"></i>
-              </a>
+              <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
+                <i className="fab fa-html5 text-2xl md:text-3xl"></i>
+              </div>
+              <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
+                <i className="fab fa-css3-alt text-2xl md:text-3xl"></i>
+              </div>
+              <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
+                <GrMysql className="fab fa-mysql text-2xl md:text-3xl" />
+              </div>
             </div>
           </div>
         </div>
@@ -92,9 +89,9 @@ export default function Hero() {
       {/* Right Section */}
       <div className="w-full md:w-1/2 justify-center hidden md:flex md:justify-end">
         <img
-          src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/04cbf851-aeb2-4af6-be64-15feff838f36/569972be-0c98-4859-87b3-dd145228b33e.png"
-          alt="Jone Lee"
-          className="rounded-lg shadow-2xl w-10/12 md:w-8/12"
+          src={image}
+          alt="Ridmi Jayasekara"
+          className="rounded-lg shadow-2xl shadow-neutral-700 w-10/12 md:w-8/12"
         />
       </div>
     </div>

@@ -3,28 +3,21 @@ import React from "react";
 const experiences = [
   {
     id: 1,
-    title: "Software Engineer",
-    company: "Tech Innovators Inc.",
-    duration: "Jan 2022 - Present",
+    title: "Associate Software Engineer",
+    company: "Hayleys Fentons",
+    duration: "Aug 2023 - Present",
     description:
-      "Developing and maintaining scalable web applications, collaborating with cross-functional teams to deliver innovative solutions.",
+      "Developed user interfaces for web applications using html and css and backend using php and JavaScript.",
   },
   {
     id: 2,
-    title: "Frontend Developer",
-    company: "Creative Solutions",
-    duration: "Jun 2020 - Dec 2021",
+    title: "Intern - Power Electronics Engineer",
+    company: "Vega Innovations, Trace Expert City, Maradana",
+    duration: "Apr 2022 - Aug 2022",
     description:
-      "Built responsive user interfaces with React and Tailwind CSS, ensuring seamless user experiences across devices.",
-  },
-  {
-    id: 3,
-    title: "Intern - Full Stack Developer",
-    company: "Startup Hub",
-    duration: "Jan 2020 - May 2020",
-    description:
-      "Assisted in developing end-to-end web solutions, focusing on backend APIs and frontend designs.",
-  },
+      "Made a step down converter doing calculations, drawing schematic diagram and the pcb design of the circuit with suitable placements and routing the power path and signal path.\nResearched about V2G technology and delta sigma modulation.",
+  }
+  
 ];
 
 export default function Work() {
@@ -64,7 +57,7 @@ export default function Work() {
               </span>
               <p className="text-gray mt-4 transition-all duration-300 group-hover:text-white">
                 {exp.description}
-              </p>
+              </p>  
             </div>
           </div>
         ))}

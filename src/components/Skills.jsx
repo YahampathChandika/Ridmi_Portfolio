@@ -1,76 +1,100 @@
 import React from "react";
+import php from "../assets/images/skills/php.png";
+import css from "../assets/images/skills/css.png";
+import html from "../assets/images/skills/html.png";
+import sql from "../assets/images/skills/sql.png";
+import js from "../assets/images/skills/js.png";
+import mongo from "../assets/images/skills/mongo.png";
+import postgre from "../assets/images/skills/postgre.png";
+import boot from "../assets/images/skills/boot.png";
+import laravel from "../assets/images/skills/laravel.png";
+import github from "../assets/images/skills/github.png";
+import rest from "../assets/images/skills/rest.png";
+import aws from "../assets/images/skills/aws.png";
+import jq from "../assets/images/skills/jq.png";
 
-// Mock Data for Skills (you can replace image URLs with your own)
 const skills = [
   {
     id: 1,
-    name: "React",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // React logo
+    name: "PHP",
+    image: php,
   },
   {
     id: 2,
+    name: "HTML",
+    image: html,
+  },
+  {
+    id: 3,
+    name: "CSS",
+    image: css,
+  },
+  {
+    id: 4,
+    name: "MySQL",
+    image: sql,
+  },
+  {
+    id: 5,
+    name: "JavaScript",
+    image: js,
+  },
+  {
+    id: 6,
     name: "Node.js",
     image:
       "https://www.sunriseintegration.com/uploads/attachments/cl4yq770gm8w7j1p76vf1ex1l-sunrise-integration-1x1-block-6.full.png", // Node.js logo
   },
   {
-    id: 3,
-    name: "MySQL",
-    image: "https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png", // MySQL logo
-  },
-  {
-    id: 4,
-    name: "MongoDB",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg", // MongoDB logo
-  },
-  {
-    id: 5,
-    name: "Tailwind CSS",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSRkCHOvhw_BKVpwLyGwi5RfMxXmXwquQ2A&s", // Tailwind CSS logo
-  },
-  {
-    id: 6,
-    name: "Express.js",
-    image:
-      "https://e7.pngegg.com/pngimages/558/166/png-clipart-node-js-javascript-react-express-js-linux-foundation-mongodb-icons-angle-text-thumbnail.png", // Express.js logo
-  },
-  {
     id: 7,
-    name: "Vue.js",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg", // Vue.js logo
+    name: "React.js",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg", // React logo
   },
   {
     id: 8,
-    name: "GraphQL",
-    image:
-      "https://cdn.iconscout.com/icon/free/png-256/free-graphql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-3-pack-logos-icons-3028854.png?f=webp", // GraphQL logo
-  },
-  {
-    id: 9,
-    name: "Docker",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJfoh0XOcxmaYzhLlmhpxmkZfOiCUNWT7wQ&s", // Docker logo
-  },
-  {
-    id: 10,
-    name: "AWS",
-    image:
-      "https://w7.pngwing.com/pngs/862/624/png-transparent-aws-vector-brand-logos-icon-thumbnail.png", // AWS logo
-  },
-  {
-    id: 11,
-    name: "TypeScript",
-    image:
-      "https://w7.pngwing.com/pngs/74/362/png-transparent-typescript-plain-logo-icon-thumbnail.png", // TypeScript logo
-  },
-  {
-    id: 12,
     name: "Python",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg", // Python logo
+  },
+  {
+    id: 9,
+    name: "MongoDB",
+    image: mongo,
+  },
+  {
+    id: 10,
+    name: "PostgreSQL",
+    image: postgre,
+  },
+  {
+    id: 11,
+    name: "Bootstrap",
+    image: boot,
+  },
+  {
+    id: 12,
+    name: "Laravel",
+    image: laravel,
+  },
+  {
+    id: 13,
+    name: "jQuery",
+    image: jq,
+  },
+  {
+    id: 14,
+    name: "GitHub",
+    image: github,
+  },
+  {
+    id: 15,
+    name: "REST APIs",
+    image: rest,
+  },
+  {
+    id: 16,
+    name: "AWS ",
+    image: aws,
   },
 ];
 

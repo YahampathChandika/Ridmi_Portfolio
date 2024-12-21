@@ -66,7 +66,7 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Follow Me</h3>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
-                href="https://www.linkedin.com/in/Ridmi-nirushika-349a05238/"
+                href="https://www.linkedin.com/in/ridmi-jayasekara-1bb7011a1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pnk text-2xl transition-all"
@@ -74,7 +74,7 @@ export default function Footer() {
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://github.com/yourgithubprofile"
+                href="https://github.com/ridmijayasekara2713"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pnk text-2xl transition-all"
@@ -82,7 +82,7 @@ export default function Footer() {
                 <i className="fab fa-github"></i>
               </a>
               <a
-                href="https://www.instagram.com/yourinstagramprofile/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pnk text-2xl transition-all"
@@ -97,11 +97,11 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Contact Me</h3>
             <div>
               <p className="text-gray-400 hover:text-pnk transition-all">
-                <i className="fas fa-phone-alt text-pnk"></i> +94 77 123 4567
+                <i className="fas fa-phone-alt text-pnk"></i> +94 76 150 6328
               </p>
               <p className="text-gray-400 hover:text-pnk transition-all">
                 <i className="fas fa-envelope text-pnk"></i>{" "}
-                Ridmi.Jayasekara@email.com
+                ridmidiljayasekara2713@gmail.com
               </p>
             </div>
           </div>
