@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import image from "../assets/images/pp.png";
 export default function Navbar() {
   const [activeItem, setActiveItem] = useState("Home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,7 +62,8 @@ export default function Navbar() {
       <div className="flex items-center justify-between ">
         <div className="flex items-center space-x-3">
           <img
-            src="https://i.pinimg.com/736x/99/8f/41/998f41fc4c63e69c06b99a6e03629815.jpg"
+            // src="https://i.pinimg.com/736x/99/8f/41/998f41fc4c63e69c06b99a6e03629815.jpg"
+            src={image}
             className="rounded-full h-12 w-12 md:h-14 md:w-14"
             alt="pp"
           />
