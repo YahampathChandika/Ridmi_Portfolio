@@ -6,18 +6,28 @@ const experiences = [
     title: "Associate Software Engineer",
     company: "Hayleys Fentons",
     duration: "Aug 2023 - Present",
-    description:
-      "Developed user interfaces for web applications using html and css and backend using php and JavaScript.",
+    description: [
+      "Proficient in designing and developing user interfaces for web applications using HTML, CSS, and modern front-end frameworks to ensure responsive and visually appealing designs.",
+      "Skilled in back-end development using PHP and JavaScript, integrating server-side logic with databases to create robust and scalable web applications.",
+      "Experienced in end-to-end development processes, including requirement analysis, coding, testing, and deployment, ensuring seamless functionality and user experience.",
+      "Adept at collaborating with cross-functional teams to deliver innovative and efficient web solutions.",
+    ],
   },
   {
     id: 2,
     title: "Intern - Power Electronics Engineer",
     company: "Vega Innovations, Trace Expert City, Maradana",
     duration: "Apr 2022 - Aug 2022",
-    description:
-      "Made a step down converter doing calculations, drawing schematic diagram and the pcb design of the circuit with suitable placements and routing the power path and signal path.\nResearched about V2G technology and delta sigma modulation.",
-  }
-  
+    description: [
+      "Designed and implemented a step-down converter, performing detailed calculations, drawing schematic diagrams, and creating a PCB design.",
+      "Strategically placed and routed power paths and signal paths for optimized circuit functionality.",
+      "Applied practical knowledge of component selection, layout optimization, and manufacturing considerations for effective PCB design. ",
+      "Adept at collaborating with cross-functional teams to deliver innovative and efficient web solutions.",
+      "Conducted in-depth research on Vehicle-to-Grid (V2G) technology, exploring its principles, applications, and potential impact on energy systems.",
+      "Analyzed and studied delta-sigma modulation techniques for advanced signal processing and their applications in electronic systems. ",
+      "Prepared comprehensive documentation and gained a solid understanding of these innovative technologies.",
+    ],
+  },
 ];
 
 export default function Work() {
@@ -45,7 +55,7 @@ export default function Work() {
             {/* Timeline Marker */}
             <div className="absolute w-4 h-4 bg-pnk rounded-full -left-2.5 border-2 border-wht"></div>
             {/* Content */}
-            <div className="bg-zinc-900 hover:bg-pnk p-6 rounded-lg shadow-2xl transition-all duration-300 group-hover:text-white">
+            <div className="bg-zinc-900 hover:bg-pnk p-5 md:p-8 rounded-lg shadow-2xl transition-all duration-300 group-hover:text-white">
               <h3 className="text-xl sm:text-2xl font-semibold text-wht transition-all duration-300 group-hover:text-white">
                 {exp.title}
               </h3>
@@ -55,9 +65,13 @@ export default function Work() {
               <span className="text-gray text-sm transition-all duration-300 group-hover:text-white">
                 {exp.duration}
               </span>
-              <p className="text-gray mt-4 transition-all duration-300 group-hover:text-white">
-                {exp.description}
-              </p>  
+              <ul className="list-disc list-outside text-gray ml-4 mt-4 transition-all duration-300 group-hover:text-white">
+                {exp.description.map((desc, index) => (
+                  <li className="mb-2" key={index}>
+                    {desc}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}
