@@ -28,19 +28,19 @@ import mms3 from "../images/Mobile MS/3.png";
 import mms4 from "../images/Mobile MS/4.png";
 import mms5 from "../images/Mobile MS/5.png";
 
-import lux1 from "../images/lux/1.png";
-import lux2 from "../images/lux/2.png";
-import lux3 from "../images/lux/3.png";
-import lux4 from "../images/lux/4.png";
-import lux5 from "../images/lux/5.png";
-import lux6 from "../images/lux/6.png";
-import lux7 from "../images/lux/7.png";
-import lux8 from "../images/lux/8.png";
-import lux9 from "../images/lux/9.png";
-import lux10 from "../images/lux/10.png";
-import lux11 from "../images/lux/11.png";
-import lux12 from "../images/lux/12.png";
-import lux13 from "../images/lux/13.png";
+import lux1 from "../images/Lux/1.png";
+import lux2 from "../images/Lux/2.png";
+import lux3 from "../images/Lux/3.png";
+import lux4 from "../images/Lux/4.png";
+import lux5 from "../images/Lux/5.png";
+import lux6 from "../images/Lux/6.png";
+import lux7 from "../images/Lux/7.png";
+import lux8 from "../images/Lux/8.png";
+import lux9 from "../images/Lux/9.png";
+import lux10 from "../images/Lux/10.png";
+import lux11 from "../images/Lux/11.png";
+import lux12 from "../images/Lux/12.png";
+import lux13 from "../images/Lux/13.png";
 
 const Projects = [
   {
