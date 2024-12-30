@@ -28,6 +28,20 @@ import mms3 from "../images/Mobile MS/3.png";
 import mms4 from "../images/Mobile MS/4.png";
 import mms5 from "../images/Mobile MS/5.png";
 
+import lux1 from "../images/lux/1.png";
+import lux2 from "../images/lux/2.png";
+import lux3 from "../images/lux/3.png";
+import lux4 from "../images/lux/4.png";
+import lux5 from "../images/lux/5.png";
+import lux6 from "../images/lux/6.png";
+import lux7 from "../images/lux/7.png";
+import lux8 from "../images/lux/8.png";
+import lux9 from "../images/lux/9.png";
+import lux10 from "../images/lux/10.png";
+import lux11 from "../images/lux/11.png";
+import lux12 from "../images/lux/12.png";
+import lux13 from "../images/lux/13.png";
+
 const Projects = [
   {
     id: 1,
@@ -109,6 +123,38 @@ const Projects = [
       "Usage Monitoring: Tracks SIM package utilization in real time, providing a clear overview for proactive management.",
     ],
     images: [mms1, mms2, mms3, mms4, mms5],
+    githubFrontend: "https://github.com/your-frontend-repo",
+    githubBackend: "https://github.com/your-backend-repo",
+  },
+
+  {
+    id: 5,
+    name: "Supercar Store Platform",
+    description:
+      '"Luxury Rides", A comprehensive web-based platform for a supercar store, including a client-facing website for browsing available cars and a management system for store operations.',
+    techStack: ["React", "Node.js", "Express.js", "Sequelize", "MySQL", "AWS"],
+    keyFeatures: [
+      "Client website to view available supercars and specifications",
+      "Email-based inquiry system for clients",
+      "Store management system for CRUD operations on car listings",
+      "Real-time updates between client website and management system",
+      "Inquiry response functionality for store owners",
+    ],
+    images: [
+      lux13,
+      lux12,
+      lux11,
+      lux10,
+      lux9,
+      lux8,
+      lux7,
+      lux6,
+      lux5,
+      lux4,
+      lux3,
+      lux2,
+      lux1,
+    ],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
