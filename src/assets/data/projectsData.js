@@ -45,43 +45,117 @@ import lux13 from "../images/Lux/13.png";
 const Projects = [
   {
     id: 1,
-    name: "Debtor Management System",
+    name: "Intelligent Chatbot to Optimize University Communication Channels",
     description:
-      "A robust system designed for tracking and managing debtors, providing comprehensive insights into payment promises, invoices, customers, and debtor summaries across all divisions in the company.",
-    techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "A cutting-edge chatbot developed to enhance communication within university settings, integrating advanced text mining to handle and streamline routine inquiries efficiently. This system is designed to improve interaction between students and university administrative staff, reducing the workload on staff while providing accurate and timely information to users.",
+    techStack: ["Python", "Rasa", "Anaconda", "MariaDB"],
     keyFeatures: [
-      "Comprehensive Dashboard: Displays total debtors, today’s promise-to-pay value, number of invoices, customers, marketing executives, and debtor summaries for each division.",
-      "Division-Based Details: Enables viewing detailed debtor information specific to individual divisions, ensuring targeted management.",
-      "Real-Time Data Tracking: Updates and visualizes key metrics dynamically for effective decision-making.",
-      "Data Visualization: Provides a clear summary of debtor trends across divisions through tables.",
-      "Real-Time Data Tracking: Updates and visualizes key metrics dynamically for effective decision-making.",
+      {
+        topic: "Natural Language Understanding (NLU) Model:",
+        description:
+          "Utilizes high-quality data to train the chatbot, ensuring accurate recognition and classification of user queries.",
+      },
+      {
+        topic: "Text Mining Integration:",
+        description:
+          "Enhances the chatbot's ability to analyze large volumes of text, offering detailed responses to complex inquiries.",
+      },
+      {
+        topic: "Automated Query Handling:",
+        description:
+          "Streamlines university communication by providing automated, real-time responses to common student inquiries.",
+      },
+      {
+        topic: "Operational Efficiency:",
+        description:
+          "Significantly reduces administrative workload and improves the overall user experience for both students and staff.",
+      },
+      {
+        topic: "Scalable Design:",
+        description:
+          "Adaptable to future enhancements like multilingual capabilities and advanced AI techniques such as sentiment analysis.",
+      },
     ],
     images: [dms1, dms2, dms3, dms4, dms5, dms6, dms7, dms8, dms9, dms10],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
-
   {
     id: 2,
+    name: "Debtor Management System",
+    description:
+      "A robust system designed for tracking and managing debtors, providing comprehensive insights into payment promises, invoices, customers, and debtor summaries across all divisions in the company.",
+    techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    keyFeatures: [
+      {
+        topic: "Comprehensive Dashboard:",
+        description:
+          "Displays total debtors, today’s promise-to-pay value, number of invoices, customers, marketing executives, and debtor summaries for each division.",
+      },
+      {
+        topic: "Division-Based Details:",
+        description:
+          "Enables viewing detailed debtor information specific to individual divisions, ensuring targeted management.",
+      },
+      {
+        topic: "Real-Time Data Tracking:",
+        description:
+          "Updates and visualizes key metrics dynamically for effective decision-making.",
+      },
+      {
+        topic: "Data Visualization:",
+        description:
+          "Provides a clear summary of debtor trends across divisions through tables.",
+      },
+    ],
+    images: [dms1, dms2, dms3, dms4, dms5, dms6, dms7, dms8, dms9, dms10],
+    githubFrontend: "https://github.com/your-frontend-repo",
+    githubBackend: "https://github.com/your-backend-repo",
+  },
+  {
+    id: 3,
     name: "Incentive Management System",
     description:
       "A comprehensive incentive management system designed for the finance department to calculate and display incentives for salespersons based on their performance metrics, streamlining financial workflows and providing actionable insights.",
     techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     keyFeatures: [
-      "Dynamic Dashboard: Displays total invoice value, salesperson count, total collection, and approved incentives.",
-      "Automated Calculations: Fetches and processes unique invoice and collection values to compute incentives accurately.",
-      "Role-Based Access: Enables secure data handling and user-specific views for finance team members.",
-      "Interactive UI: User-friendly interfaces for data input and visualization using PHP forms and JavaScript functions.",
-      "Data Management: Seamless handling of invoice records with error prevention mechanisms to avoid duplicates.",
-      "Customizable Reports: Provides incentive summaries for easy analysis and decision-making.",
+      {
+        topic: "Dynamic Dashboard:",
+        description:
+          "Displays total invoice value, salesperson count, total collection, and approved incentives.",
+      },
+      {
+        topic: "Automated Calculations:",
+        description:
+          "Fetches and processes unique invoice and collection values to compute incentives accurately.",
+      },
+      {
+        topic: "Role-Based Access:",
+        description:
+          "Enables secure data handling and user-specific views for finance team members.",
+      },
+      {
+        topic: "Interactive UI:",
+        description:
+          "User-friendly interfaces for data input and visualization using PHP forms and JavaScript functions.",
+      },
+      {
+        topic: "Data Management:",
+        description:
+          "Seamless handling of invoice records with error prevention mechanisms to avoid duplicates.",
+      },
+      {
+        topic: "Customizable Reports:",
+        description:
+          "Provides incentive summaries for easy analysis and decision-making.",
+      },
     ],
     images: [inc1, inc2, inc3, inc4, inc5, inc6],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
-
   {
-    id: 3,
+    id: 4,
     name: "Supermarket Inventory Management System",
     description:
       "A web-based application designed to streamline inventory management processes for supermarkets, offering a comprehensive solution for tracking stock, managing customers, suppliers, and orders, and simplifying day-to-day operations.",
@@ -95,50 +169,119 @@ const Projects = [
       "jQuery",
     ],
     keyFeatures: [
-      "Inventory Tracking: Displays and monitors stock levels in real-time, ensuring accurate and efficient inventory management.",
-      "Customer Management: Provides tools to manage customer profiles and purchase histories effectively.",
-      "Category & Brand Management: Organizes products into categories and brands for easier navigation and management.",
-      "Supplier Management: Tracks supplier details and streamlines restocking workflows.",
-      "Product Management: Simplifies product addition, editing, and removal to maintain an up-to-date inventory.",
-      "Purchase Management: Facilitates tracking of purchases and supplier transactions.",
-      "Order Management: Manages customer orders with an intuitive and user-friendly interface.",
+      {
+        topic: "Inventory Tracking:",
+        description:
+          "Displays and monitors stock levels in real-time, ensuring accurate and efficient inventory management.",
+      },
+      {
+        topic: "Customer Management:",
+        description:
+          "Provides tools to manage customer profiles and purchase histories effectively.",
+      },
+      {
+        topic: "Category & Brand Management:",
+        description:
+          "Organizes products into categories and brands for easier navigation and management.",
+      },
+      {
+        topic: "Supplier Management:",
+        description:
+          "Tracks supplier details and streamlines restocking workflows.",
+      },
+      {
+        topic: "Product Management:",
+        description:
+          "Simplifies product addition, editing, and removal to maintain an up-to-date inventory.",
+      },
+      {
+        topic: "Purchase Management:",
+        description:
+          "Facilitates tracking of purchases and supplier transactions.",
+      },
+      {
+        topic: "Order Management:",
+        description:
+          "Manages customer orders with an intuitive and user-friendly interface.",
+      },
     ],
     images: [inv1, inv2, inv3, inv4, inv5],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
-
   {
-    id: 4,
+    id: 5,
     name: "Mobile Management System",
     description:
       "An efficient system for tracking and managing company-issued SIMs and packages, streamlining operations for the finance and HR departments by monitoring usage and user registration.",
     techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     keyFeatures: [
-      "Excess Usage Tracking: Identifies users exceeding their allocated SIM package limits, providing actionable insights for the finance department.",
-      "User Management: Allows the HR department to register, create, and manage user profiles tied to company-issued SIMs.",
-      "Centralized Dashboard: Consolidates key metrics such as exceeded users, usage trends, and user details for streamlined monitoring.",
-      "Interactive UI: User-friendly interfaces for data input and visualization using PHP forms and JavaScript functions.",
-      "Role-Based Access: Ensures secure access for finance and HR teams, with functionality tailored to their specific needs.",
-      "Usage Monitoring: Tracks SIM package utilization in real time, providing a clear overview for proactive management.",
+      {
+        topic: "Excess Usage Tracking:",
+        description:
+          "Identifies users exceeding their allocated SIM package limits, providing actionable insights for the finance department.",
+      },
+      {
+        topic: "User Management:",
+        description:
+          "Allows the HR department to register, create, and manage user profiles tied to company-issued SIMs.",
+      },
+      {
+        topic: "Centralized Dashboard:",
+        description:
+          "Consolidates key metrics such as exceeded users, usage trends, and user details for streamlined monitoring.",
+      },
+      {
+        topic: "Interactive UI:",
+        description:
+          "User-friendly interfaces for data input and visualization using PHP forms and JavaScript functions.",
+      },
+      {
+        topic: "Role-Based Access:",
+        description:
+          "Ensures secure access for finance and HR teams, with functionality tailored to their specific needs.",
+      },
+      {
+        topic: "Usage Monitoring:",
+        description:
+          "Tracks SIM package utilization in real time, providing a clear overview for proactive management.",
+      },
     ],
     images: [mms1, mms2, mms3, mms4, mms5],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
-
   {
-    id: 5,
+    id: 6,
     name: "Supercar Store Platform",
     description:
       '"Luxury Rides", A comprehensive web-based platform for a supercar store, including a client-facing website for browsing available cars and a management system for store operations.',
     techStack: ["React", "Node.js", "Express.js", "Sequelize", "MySQL", "AWS"],
     keyFeatures: [
-      "Client website to view available supercars and specifications",
-      "Email-based inquiry system for clients",
-      "Store management system for CRUD operations on car listings",
-      "Real-time updates between client website and management system",
-      "Inquiry response functionality for store owners",
+      {
+        topic: "Client Website:",
+        description:
+          "Allows clients to view available supercars and specifications.",
+      },
+      {
+        topic: "Inquiry System:",
+        description: "Provides email-based inquiry functionality for clients.",
+      },
+      {
+        topic: "Store Management:",
+        description:
+          "Includes a system for CRUD operations on car listings and other store functionalities.",
+      },
+      {
+        topic: "Real-Time Updates:",
+        description:
+          "Synchronizes data between the client website and the management system in real time.",
+      },
+      {
+        topic: "Inquiry Response:",
+        description:
+          "Offers tools for store owners to respond to client inquiries efficiently.",
+      },
     ],
     images: [
       lux13,

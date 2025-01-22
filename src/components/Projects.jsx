@@ -123,7 +123,12 @@ const Projects = () => {
                 <ul className="list-disc pl-6 space-y-2 text-sm md:text-base">
                   {selectedProject?.keyFeatures.map((feature, index) => (
                     <li key={index} className="text-gray-600">
-                      {feature}
+                      <span className="font-bold text-black">
+                        {feature.topic}
+                      </span>{" "}
+                      <span className="text-gray-700">
+                        {feature.description}
+                      </span>
                     </li>
                   ))}
                 </ul>

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import image from "../assets/images/pp.png";
+import resume from "../assets/RD.Jayasekara.pdf";
+
 export default function Navbar() {
   const [activeItem, setActiveItem] = useState("Home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,7 +50,8 @@ export default function Navbar() {
   }, []);
 
   const handleResumeClick = () => {
-    window.open("https://drive.google.com/your-resume-link", "_blank");
+    const resumeURL = window.location.origin + resume;
+    window.open(resumeURL, "_blank");
   };
 
   return (
@@ -108,7 +111,7 @@ export default function Navbar() {
             className="cursor-pointer text-pnk font-semibold hover:text-red-500 flex items-center"
             onClick={handleResumeClick}
           >
-            Resume{" "}
+            Resume
             <span className="material-symbols-outlined font-semibold ml-2">
               open_in_new
             </span>

@@ -57,12 +57,12 @@ export default function Hero() {
                 <i className="fab fa-github text-2xl md:text-3xl"></i>
               </a>
               <a
-                href=""
-                // target="_blank"
+                href="https://wa.me/+94761506328"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300"
               >
-                <i className="fab fa-instagram text-2xl md:text-3xl"></i>
+                <i className="fab fa-whatsapp text-2xl md:text-3xl"></i>
               </a>
             </div>
           </div>

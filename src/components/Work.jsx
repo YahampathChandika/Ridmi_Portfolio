@@ -15,6 +15,18 @@ const experiences = [
   },
   {
     id: 2,
+    title: "Intern - Software Engineer",
+    company: "Hayleys Fentons",
+    duration: "Apr 2023 - Oct 2023",
+    description: [
+      "Assisted in designing and developing user interfaces for web applications using HTML, CSS, and modern front-end frameworks to ensure responsive and visually appealing designs.",
+      "Contributed to back-end development using PHP and JavaScript, integrating server-side logic with databases to create functional web applications.",
+      "Gained experience in various stages of the development process, including requirement analysis, coding, testing, and deployment, ensuring basic functionality and user experience.",
+      "Collaborated with cross-functional teams, learning best practices in delivering web solutions and improving development efficiency.",
+    ],
+  },
+  {
+    id: 3,
     title: "Intern - Power Electronics Engineer",
     company: "Vega Innovations, Trace Expert City, Maradana",
     duration: "Apr 2022 - Aug 2022",
