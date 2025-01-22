@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import ResearchInterests from "./components/Research";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
@@ -16,6 +17,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Work />
+        <ResearchInterests />
       </div>
       <Footer />
     </div>
