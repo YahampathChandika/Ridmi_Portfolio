@@ -73,10 +73,10 @@ export default function Hero() {
             </p>
             <div className="flex justify-center md:justify-start space-x-4 text-gray-500">
               <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
-                <i className="fab fa-php text-2xl md:text-3xl"></i>
+                <i className="fab fa-html5 text-2xl md:text-3xl"></i>
               </div>
               <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
-                <i className="fab fa-css3-alt text-2xl md:text-3xl"></i>
+                <i className="fab fa-php text-2xl md:text-3xl"></i>
               </div>
               <div className="bg-gradient-to-br from-black/50 to-black/20 text-wht w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded shadow-lg hover:bg-black/50 hover:-translate-y-2 transition-transform duration-300">
                 <GrMysql className="fab fa-mysql text-2xl md:text-3xl" />
