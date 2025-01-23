@@ -42,6 +42,19 @@ import lux11 from "../images/Lux/11.png";
 import lux12 from "../images/Lux/12.png";
 import lux13 from "../images/Lux/13.png";
 
+import chat1 from "../images/Chatbot/1.jpg";
+import chat2 from "../images/Chatbot/2.jpg";
+import chat3 from "../images/Chatbot/3.jpg";
+import chat4 from "../images/Chatbot/4.jpg";
+import chat5 from "../images/Chatbot/5.jpg";
+import chat6 from "../images/Chatbot/6.jpg";
+import chat7 from "../images/Chatbot/7.jpg";
+import chat8 from "../images/Chatbot/8.jpg";
+import chat9 from "../images/Chatbot/9.jpg";
+import chat10 from "../images/Chatbot/10.jpg";
+import chat11 from "../images/Chatbot/11.jpg";
+import chat12 from "../images/Chatbot/12.jpg";
+
 const Projects = [
   {
     id: 1,
@@ -76,7 +89,7 @@ const Projects = [
           "Adaptable to future enhancements like multilingual capabilities and advanced AI techniques such as sentiment analysis.",
       },
     ],
-    images: [dms1, dms2, dms3, dms4, dms5, dms6, dms7, dms8, dms9, dms10],
+    images: [chat1, chat2, chat3, chat4, chat5, chat6, chat7, chat8, chat9, chat10, chat11, chat12],
     githubFrontend: "https://github.com/your-frontend-repo",
     githubBackend: "https://github.com/your-backend-repo",
   },
